@@ -1108,13 +1108,3 @@ section {
     padding-right: 20px 15px;
   }
 }
-
-div.row {
-  float: left;
-}
-
-div.col-5 {
-  padding-bottom: 50px 100px;
-  margin-left: 50px;
-  margin-top: -22px;
-}
