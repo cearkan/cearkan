@@ -16,16 +16,11 @@ body {
 /* Layout */
 
 main {
-  position: relative;
-  width: 100rem;
-  height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blue(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  overflow: hidden;
-  display: flex;
 }
 
 .player {
@@ -77,7 +72,6 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  width: 65%;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -96,9 +90,6 @@ main {
 /* absolute positioned elements */
 
 .btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   color: #444;
   background: none;
   border: none;
@@ -143,12 +134,8 @@ main {
 } */
 
 .dice {
-  position: absolute;
-  left: 50%;
   top: 16.5rem;
-  transform: translateX(-50%);
   height: 10rem;
-  width: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
 }
 
